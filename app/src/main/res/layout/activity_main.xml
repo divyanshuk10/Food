@@ -5,4 +5,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/fragment_food_page" />
 </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightGrey">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="8dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="8dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/HeadingMedium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/title_what_would_you"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/textViewMeal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rectangle_solid_white_rounded_corner"
+        android:drawablePadding="8dp"
+        android:drawableTop="@drawable/ic_meal"
+        android:text="@string/meal"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textViewDrinks"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/rectangle_solid_white_rounded_corner"
+        android:drawablePadding="8dp"
+        android:drawableTop="@drawable/ic_drink"
+        android:text="@string/drinks"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/textViewMeal" />
+
+    <TextView
+        android:id="@+id/textViewWishADish"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_solid_white_rounded_corner"
+        android:drawablePadding="8dp"
+        android:drawableTop="@drawable/ic_wish"
+        android:text="@string/wish_a_dish"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMeal" />
+
+    <TextView
+        android:id="@+id/textViewShareRecipe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/rectangle_solid_white_rounded_corner"
+        android:drawablePadding="8dp"
+        android:drawableTop="@drawable/ic_recipe"
+        android:text="@string/share_a_recipe"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/textViewWishADish" />
+
+    <TextView
+        android:id="@+id/textViewPlanADiet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_solid_white_rounded_corner"
+        android:drawablePadding="8dp"
+        android:drawableTop="@drawable/ic_plan_diet"
+        android:text="@string/plan_a_diet"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWishADish" />
+
+    <TextView
+        android:id="@+id/textViewBmiCalc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/rectangle_solid_white_rounded_corner"
+        android:drawablePadding="8dp"
+        android:drawableTop="@drawable/ic_bmi"
+        android:text="@string/calculate_bmi"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/textViewPlanADiet" />
+</android.support.constraint.ConstraintLayout>

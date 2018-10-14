@@ -8,4 +8,11 @@
     <string name="dish_description">Dish Description</string>
     <string name="dummy_large">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</string>
     <string name="featured_items">Featured Items</string>
+    <string name="title_what_would_you">What would you like to have?</string>
+    <string name="meal">Meal</string>
+    <string name="drinks">Drinks</string>
+    <string name="wish_a_dish">Wish a dish</string>
+    <string name="share_a_recipe">Share a recipe</string>
+    <string name="plan_a_diet">Plan a diet</string>
+    <string name="calculate_bmi">Calculate BMI</string>
 </resources>
